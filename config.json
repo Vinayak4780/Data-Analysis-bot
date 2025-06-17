@@ -1,0 +1,47 @@
+{
+  "name": "data-analyst-agent",
+  "version": "1.0.0",
+  "description": "AI-powered data analyst agent with multi-format support",
+  "main": "data_analyst_agent.py",
+  "scripts": {
+    "start": "python data_analyst_agent.py",
+    "web": "streamlit run streamlit_app.py",
+    "test": "python test_agent.py",
+    "setup": "python setup.py"
+  },
+  "keywords": [
+    "data-analysis",
+    "ai",
+    "llm",
+    "together-ai",
+    "streamlit",
+    "visualization",
+    "data-science"
+  ],
+  "author": "AI Assistant",
+  "license": "MIT",
+  "dependencies": {
+    "python": ">=3.8",
+    "together": ">=1.2.0",
+    "pandas": ">=2.0.0",
+    "streamlit": ">=1.28.0",
+    "plotly": ">=5.15.0",
+    "matplotlib": ">=3.7.0",
+    "seaborn": ">=0.12.0"
+  },
+  "features": [
+    "Multi-format file support (.csv, .xlsx, .txt, .docx, .pdf, images)",
+    "Intelligent data analysis using LLM",
+    "Automatic visualization generation",
+    "Interactive Q&A interface",
+    "Streamlit web interface",
+    "Statistical analysis and insights",
+    "OCR support for images",
+    "Conversation memory"
+  ],
+  "model": {
+    "name": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
+    "provider": "Together.ai",
+    "description": "Advanced language model for intelligent data analysis and reasoning"
+  }
+}
